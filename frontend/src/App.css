@@ -1,0 +1,31 @@
+.active{
+    color: #B055F7;
+    font-weight: bold;
+  }
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #8754EB;
+    border-radius:20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: violet;
+  }
+  
+body{
+    background-color: #F5F5F5;
+}
+html{
+  scroll-behavior: smooth;
+}
